@@ -1,6 +1,5 @@
-remote_theme: "mmistakes/minimal-mistakes@4.19.2"
+remote_theme: mmistakes/minimal-mistakes
 name: Jamilla Akhund-Zade
 title: Jamilla Akhund-Zade
 description: Personal page to host project descriptions and CV
 logo: "/logo/logo.jpg"
-plugins: jekyll-include-cache
