@@ -5,10 +5,10 @@ plainwhite:
   date_format: "%b %-d, %Y"
 
   social_links:
-    twitter: https://twitter.com/jamilla_az
-    github: https://github.com/jamilla-az
-    linkedIn: https://www.linkedin.com/in/jamilla-akhund-zade/
-    
+    twitter: jamilla_az
+    github: jamilla-az
+    linkedIn: in/jamilla-akhund-zade/
+
   navigation:
     - title: My Work
       url: "/my-work"
