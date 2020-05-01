@@ -1,4 +1,16 @@
 remote_theme: thelehhman/plainwhite-jekyll
-name: Jamilla Akhund-Zade
-title: Jamilla Akhund-Zade
-description: Personal page to host project descriptions and CV
+plainwhite:
+  name: Jamilla Akhund-Zade
+  tagline: personal page
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    twitter: https://twitter.com/jamilla_az
+    github: https://github.com/jamilla-az
+    linkedIn: https://www.linkedin.com/in/jamilla-akhund-zade/
+    
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
