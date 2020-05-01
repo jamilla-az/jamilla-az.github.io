@@ -1,4 +1,4 @@
-remote_theme: mmistakes/minimal-mistakes
+theme: jekyll-theme-minimal
 name: Jamilla Akhund-Zade
 title: Jamilla Akhund-Zade
 description: Personal page to host project descriptions and CV
