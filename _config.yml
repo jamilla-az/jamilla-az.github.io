@@ -1,5 +1,5 @@
 theme: plainwhite
-remote_theme: thelehhman/plainwhite-jekyll
+baseurl: ""
 plainwhite:
   name: Jamilla Akhund-Zade
   tagline: personal page
