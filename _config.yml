@@ -1,8 +1,8 @@
 theme: plainwhite
 baseurl: ""
 plainwhite:
-  name: Jamilla Akhund-Zade
-  tagline: personal page
+  name: Jamilla Akhund-Zade, Ph.D.
+  tagline: Biology, Statistics, Data Science  
   date_format: "%b %-d, %Y"
 
   social_links:
@@ -12,6 +12,6 @@ plainwhite:
 
   navigation:
     - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
+      url: "https://orcid.org/0000-0001-5589-8258"
+    - title: de Bivort Lab
+      url: "http://debivort.org/"
