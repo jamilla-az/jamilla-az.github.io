@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} · {% endif %}Jamilla Akhund-Zade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar">
+      <a href="/" class="sidebar-photo-link">
+        <img src="/assets/portfolio.png" alt="Jamilla Akhund-Zade" class="sidebar-photo" width="160" height="160">
+      </a>
+      <h1 class="sidebar-name"><a href="/">Jamilla Akhund-Zade, PhD</a></h1>
+      <p class="sidebar-tagline">Bioinformatics · Statistics · Genetics</p>
+      <ul class="sidebar-social" aria-label="Social links">
+        <li><a href="https://github.com/jamilla-az" aria-label="GitHub">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/jamilla-akhund-zade/" aria-label="LinkedIn">LinkedIn</a></li>
+        <li><a href="https://orcid.org/0000-0001-5589-8258">ORCID</a></li>
+      </ul>
+      <nav class="sidebar-nav" aria-label="Main">
+        <ul>
+          <li><a href="/phd/">PhD</a></li>
+          <li><a href="/project/">Blog</a></li>
+          <li><a href="/assets/resume.pdf">Resume</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="content">
+      {{ content | safe }}
+    </main>
+  </div>
+</body>
+</html>
