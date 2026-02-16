@@ -2,7 +2,11 @@ remote_theme: thelehhman/plainwhite-jekyll
 baseurl: ""
 plainwhite:
   name: Jamilla Akhund-Zade
-  tagline: personal page
+  tagline: |
+    Biology Ph.D.
+    Statistics
+    Data Science
+
   date_format: "%b %-d, %Y"
 
   social_links:
@@ -11,7 +15,9 @@ plainwhite:
     linkedIn: in/jamilla-akhund-zade/
 
   navigation:
+    - title: About
+      url: "/about" 
     - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
+      url: "https://orcid.org/0000-0001-5589-8258"
+    - title: de Bivort Lab
+      url: "http://debivort.org/" 
