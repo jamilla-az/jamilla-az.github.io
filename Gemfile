@@ -1,1 +1,0 @@
-gem 'plainwhite', '~> 0.9'

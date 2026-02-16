@@ -1,0 +1,21 @@
+---
+layout: layout.njk
+title: Projects
+permalink: /project/
+---
+
+<article class="prose">
+  <h2>Blog</h2>
+  <p>Small explorations and side projects.</p>
+
+  <div class="blog-list">
+    {% for post in collections.projectsByDate %}
+    <article class="blog-post-preview">
+      <time class="blog-post-date" datetime="{{ post.data.date | dateISO }}">{{ post.data.date | dateDisplay }}</time>
+      <h3 class="blog-post-title"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      <p class="blog-post-excerpt">{{ post.data.excerpt }}</p>
+      <a href="{{ post.url }}" class="blog-post-link">Read more →</a>
+    </article>
+    {% endfor %}
+  </div>
+</article>
